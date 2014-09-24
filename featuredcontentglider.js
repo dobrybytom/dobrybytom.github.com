@@ -6,11 +6,11 @@
 
 var featuredcontentglider={
 	csszindex: 100,
-	ajaxloadingmsg: '<b>Fetching Content. Please wait...</b>',
+	ajaxloadingmsg: '<b>Wczytujê dane... Proszê czekaæ</b>',
 	glide:function(config, showpage, isprev){
 		var selected=parseInt(showpage)
 		if (selected>=config.$contentdivs.length){ //if no content exists at this index position
-			alert("No content exists at page "+(selected+1)+"! Loading 1st page instead.")
+			alert("Strona jest pusta "+(selected+1)+"! £aduje pierwsz¹ stronê")
 			selected=0
 		}
 		var $target=config.$contentdivs.eq(selected)
