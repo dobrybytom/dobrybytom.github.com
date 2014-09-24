@@ -9,7 +9,6 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #ffffff;
-	background: #1a1d1e url(images/389-Impossibru.jpg) repeat-x;
 }
 
 a:link, a:visited { color: #0279ff; text-decoration: none; font-weight:bold;} 
@@ -91,7 +90,7 @@ img {
 	float: left;
 	width: 240px;
 	height: 150px;
-	background: url(images/389-Impossibru.jpg) no-repeat; WIDTH: 960px ;HEIGHT: 400px;
+	background: url(images/templatemo_logo.jpg) no-repeat;
 }
 
 #templatemo_content {
