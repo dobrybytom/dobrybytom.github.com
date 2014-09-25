@@ -9,7 +9,8 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #ffffff;
-	background: #1a1d1e url(images/Panorama_Rynku_Bytom.jpg) auto 155px;
+	background: #1a1d1e url(images/Panorama_Rynku_Bytom.jpg);
+	background-size:100px 50px;
 }
 
 a:link, a:visited { color: #0279ff; text-decoration: none; font-weight:bold;} 
