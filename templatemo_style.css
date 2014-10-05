@@ -1,8 +1,4 @@
-/*
-CSS Credit: http://www.templatemo.com/
-*/
-
-body {
+﻿body {
 	margin: 0;
 	padding: 0;
 	line-height: 1.5em;
@@ -14,7 +10,6 @@ body {
 
 a:link, a:visited { color: #0279ff; text-decoration: none; font-weight:bold;} 
 a:active, a:hover { color: #0279ff; text-decoration: underline;}
-
 
 p {
 	margin: 0px;
@@ -91,7 +86,7 @@ img {
 	float: left;
 	width: 240px;
 	height: 150px;
-	background: url(images/templatemo_logo.jpg) no-repeat;
+	background: url(images/Logo_d_b3.jpg) no-repeat;
 }
 
 #templatemo_content {
@@ -220,3 +215,36 @@ img {
 	margin: 0 auto;
 }
 /* end of footer */
+
+/* Dodał Adam */
+ol {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  font-size:18px;
+  height:2em;
+  line-height:2em;
+  text-align:center;
+}
+
+ol > li {
+  float:left;
+  background-color:#414141;
+  width:210px;
+}
+
+ol a {
+  display:block;
+  color:#000;
+  text-decoration:none;
+  padding:0 5px;
+}
+
+ol > li > a:hover {
+  color:#09C;
+}
+
+ol > li:hover {
+  background-color:#414141;
+}
+
