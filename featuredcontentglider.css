@@ -1,4 +1,4 @@
-.glidecontentwrapper{
+﻿.glidecontentwrapper{
 position: relative; /* Do not change this value */
 width: 780px;
 height: 500px; /* Set height to be able to contain height of largest content shown*/
@@ -37,11 +37,11 @@ background: white; /*always declare an explicit background color for fade effect
 .glidecontenttoggler a{ /*style for every navigational link within toggler */
 float: left;
 display: block;
-width: 120px;
+width: 150px;
 height: 45px;
 padding: 105px 0 0 0;
-font-size: 18px;
-font-family: "Times New Roman", Times, serif;
+font-size: 15px;
+font-family: "Arial", Times, serif;
 text-align: center;
 color: #999;
 margin-right: 0px;
@@ -51,29 +51,20 @@ outline: none;
 }
 
 .glidecontenttoggler a.page_01 {
-	background: url(images/templatemo_menu_01_b.jpg) no-repeat;
+	background: url(images/obrazekmadzi.jpg) no-repeat;
 }
 
 .glidecontenttoggler a.page_02 {
-	background: url(images/templatemo_menu_02_b.jpg) no-repeat;
+	background: url(images/obrazekmadzi.jpg) no-repeat;
 }
 
 .glidecontenttoggler a.page_03 {
-	background: url(images/templatemo_menu_03_b.jpg) no-repeat;
+	background: url(images/obrazekmadzi.jpg) no-repeat;
 }
 
 .glidecontenttoggler a.page_04 {
-	background: url(images/templatemo_menu_04_b.jpg) no-repeat;
+	background: url(images/obrazekmadzi.jpg) no-repeat;
 }
-
-.glidecontenttoggler a.page_05 {
-	background: url(images/templatemo_menu_05_b.jpg) no-repeat;
-}
-
-.glidecontenttoggler a.page_06 {
-	background: url(images/templatemo_menu_06.jpg) no-repeat;
-}
-
 
 .glidecontenttoggler a.selected{ /*style for selected page's toggler link. ".selected" class auto generated! */
 color: #ffffff;
